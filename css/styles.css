@@ -1,5 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
   color: #434455;
   margin: 0px;
   border: 0px;
@@ -225,7 +226,8 @@ header {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17; /* line-height: 21px; */
+  letter-spacing: 0.03em;
 }
 
 .footer-logo-span {
