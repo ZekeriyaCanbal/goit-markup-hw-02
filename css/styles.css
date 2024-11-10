@@ -15,14 +15,19 @@ header {
   align-items: center;
 }
 
-.nav-logo {
+.logo-nav {
+  font-family: 'Raleway';
+}
+
+.logo-nav {
   margin-left: 156px;
   color: #4d6ae5;
   text-transform: uppercase;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 
 .logo-span {
@@ -95,8 +100,8 @@ header {
 .first-selection-title {
   font-family: Roboto, sans-serif;
   font-size: 56px;
-  line-height: 60px;
-  initial-letter: 2%;
+  line-height: 1.07;
+  initial-letter: 0.02em;
   color: #ffffff;
   text-align: center;
 }
@@ -108,7 +113,20 @@ header {
   border-radius: 4px;
   color: #ffffff;
   font-size: 16px;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.first-selection-button:hover {
+  background-color: #404bbf;
+  cursor: pointer;
+}
+
+.first-selection-button:focus {
+  background-color: #404bbf;
   cursor: pointer;
 }
 
