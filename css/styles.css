@@ -249,6 +249,8 @@ header {
 .forth-selection-list-item-text {
   padding-left: 24px;
   color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .footer {
