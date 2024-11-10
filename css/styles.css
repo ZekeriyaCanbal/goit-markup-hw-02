@@ -14,6 +14,9 @@ header {
   display: flex;
   align-items: center;
 }
+.nav-logo {
+  font-family: 'Raleway', sans-serif;
+}
 
 .logo-nav {
   margin-left: 156px;
@@ -50,9 +53,17 @@ header {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #2e2f42;
   text-decoration: none;
+}
+
+.nav-list-list-item:hover {
+  color: #404bbf;
+}
+
+.nav-list-list-item:focus {
+  color: #404bbf;
 }
 
 .contacts-list {
@@ -97,7 +108,7 @@ header {
   font-family: Roboto, sans-serif;
   font-size: 56px;
   line-height: 1.07;
-  initial-letter: 0.02em;
+  letter-spacing: 0.02em;
   color: #ffffff;
   text-align: center;
 }
@@ -165,6 +176,7 @@ header {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  font-size: 36px;
   color: #2e2f42;
 }
 
@@ -228,10 +240,15 @@ header {
 
 .forth-selection-list-item-title {
   padding-left: 24px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .forth-selection-list-item-text {
   padding-left: 24px;
+  color: #434455;
 }
 
 .footer {
