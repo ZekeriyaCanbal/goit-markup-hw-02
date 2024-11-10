@@ -15,14 +15,14 @@ header {
   align-items: center;
 }
 .nav-logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway';
 }
 
 .logo-nav {
   margin-left: 156px;
   color: #4d6ae5;
   text-transform: uppercase;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway';
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -32,10 +32,11 @@ header {
 .logo-span {
   color: #2e2f42;
   text-transform: uppercase;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway';
   font-weight: 700;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 .nav-list {
   margin-left: 150px;
